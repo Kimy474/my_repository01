@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Clash;
+    src: url(You-Blockhead.ttf);
+}
+
+#chatcontainer{
+    background-color: #39517D;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.header{
+    background-image: url(../images/headerback.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 130px;
+    display: block;
+    
+} 
+
+#chatcontainer .header .containHeader{
+    display: flex;
+    flex: 1;
+}
+
+#chatcontainer .header .containHeader .x img{
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.chat-body{
+    background-image: url(../images/header-shadow.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+#buttons-container{
+    text-align: right;
+    padding: 20px;
+}
+
+.button-reactions{
+    margin-right: 20px;
+}
+
+.button-reactions, .button-text{
+    display: inline-table;
+    cursor: pointer;
+}
+
+.reaction-left {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+
+.reaction-left div{
+    background-image: url(../images/reaction-background-left.png);
+    background-size: 100px;
+    display: inline-block;
+    width: 100px;
+    height: 62px;
+}
+
+.reaction-left img.stopped{
+    width: 70px;
+    position: relative;
+    margin: auto;
+    margin-top: 7px;
+    margin-left: 25px;
+}             
+
+.chat-body div.chat-text{
+    display: inline-block;
+    background-image: url(/images/reaction-background-right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    padding: 10px;
+    height: 60px;
+    margin-right: 5px;
+    font-family: Clash;
+}
+
+.chat-body div.chat-text-left{
+    align-self: flex-end;
+}
+
+
+.button-left{
+    background-image: url(../images/button-left.png);
+    background-repeat: repeat-x;
+    width: 9px;
+    height: 35px;
+    display: table-cell;
+}
+
+.button-reactions .button-center{
+    background-image: url(../images/button-center.png);
+    background-repeat: repeat-x;
+    width: 30px;
+    height: 35px;
+    display: table-cell;
+  
+}
+
+.button-reactions .button-center img, .button-text .button-center img{
+    margin-top: 5px;
+    height: 28px;
+}
+
+.button-right{
+    background-image: url(../images/button-right.png);
+    background-repeat: repeat-x;
+    width: 9px;
+    height: 35px;
+    display: table-cell;
+}
+
+.button-text .button-center{
+    background-image: url(../images/button-center.png);
+    background-repeat: repeat-x;
+    width: 60px;
+    height: 35px;
+    display: table-cell;
+    text-align: center;
+}
+
+.chat-title{
+    display: inline-table;
+    width: 65%;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.chat-title div{
+    display: table-cell;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.title-left{
+    background-image: url(../images/title-left.png);
+    background-repeat: repeat-x;
+    width: 8px;
+    height: 45px;
+}
+
+.title-center{
+    background-image: url(../images/titleback.jpg);
+    background-repeat: repeat-x;
+    width: 90%;
+    height: 45px;
+    padding: 0px;
+    vertical-align: middle;
+}
+.title-right{
+    background-image: url(/images/title-right.png);
+    background-repeat: no-repeat;
+}
+
+.title-center img{
+    height: 30px;
+}
+
+.team-title{
+    font-family: Clash;
+    color: #000;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.input-chat{
+    display: none;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+
